@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+One prime example is line 44 in the js file. The for loop was getting upset by setting const to i, I'm assuming from just the paranthesis alone counts as a local scope. That's why the index wasn't able to increment? I'm still not entirely sure why it wouldn't run. By setting the const to let, the error went away. Most of the for loops came across this error. 
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+If it's mainly just to make the code look cleaner I'm all for the idea. Just setting up the dollar sign and using different set of quotes made it seem kind of frustrating but I think I just have to make a habit out of it. 
