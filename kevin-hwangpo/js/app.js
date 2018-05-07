@@ -35,10 +35,9 @@ function displayPics(){
     }
     console.log(rando);
   }
-
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
   // PUT YOUR RESPONSE IN THIS COMMENT
-  // The let variable is not within the locally scoped let. You would need to move the console.log(rando); on line 37 after curly bracket on line 35.
+  //Since let is locally scoped the let variable is set to only be within the first set of brackets. That's why when you see the console.log(rando) you need to move that up within the locally scoped variable.
   console.log(viewed);
 
   // To the DOM and beyond!
